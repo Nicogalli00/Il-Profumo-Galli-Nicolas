@@ -1,0 +1,324 @@
+.grid-container{
+display: grid;     
+grid-template-rows: repeat(4,200px);
+grid-template-columns: repeat(4,1fr);
+grid-template-areas:
+"header header header header"
+"centro centro centro  centro"
+"centro centro centro  centro"
+"centro2 centro2 centro2 centro2"
+"footer1 footer footer footer2";
+}
+.grid-uno { 
+grid-column: 1/ span 1;
+grid-row: 1/ 1;
+grid-area: header;
+}
+.grid-dos{
+display: flex;
+justify-content: space-around;
+grid-area: centro;
+}
+.grid-tres{ 
+padding-top: 100px;
+justify-content: center;
+display: flex;
+grid-area: centro;
+}
+.grid-cuatro { 
+padding-top: 675px;
+grid-area: footer2;
+display: flex;
+justify-content: flex-end;
+ }
+
+.ig12{ width: 100px;}
+.wp12{ width: 100px;}
+
+.grid-cinco{
+display: flex;
+justify-content: flex-end;
+grid-column: 4/ span 4 ;
+grid-area: header;
+grid-row: 1/ 1;}
+
+
+/*index css */
+
+.grid-uno1{ grid-area: header;}
+
+.grid-unoo1{ position: absolute;
+}
+
+.fotosytextos{
+vertical-align: top;
+display: inline-block;
+text-align: center; }
+
+.grid-dos1{   
+display: flex;
+grid-area: centro;
+grid-column: 1 / span 4;
+grid-row: 2 / span 2;
+justify-content: space-around;}
+
+.grid-tres1 {
+padding-top: 200px;
+display: flex;
+grid-area: centro2;
+grid-column: 1 / span 4;
+grid-row: 3/ span 3;
+justify-content: space-evenly;
+flex-wrap: nowrap;}
+
+.grid-cuatro1{ 
+padding-top: 28px;
+display: flex;
+grid-area: centro2;
+grid-column: 1 / span 4;
+grid-row: 3/ span 3;
+flex-wrap: nowrap;
+flex-direction: row;
+align-content: center;
+justify-content: space-around;}
+
+img.l{
+width: 300px ;
+height: 300px;}
+
+
+img.mm{width: 200px ;}
+
+img.wp{width: 100px ;}
+
+img.ig{width: 100px ;}
+
+.grid-cincoo1{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-left: 1341px;
+}
+.grid-seis1{
+grid-area: footer;
+grid-column: 4/ span 4;
+grid-row: 4/ span 4;
+position: absolute;
+}
+
+.img-mm{
+width: 200px;
+ height: 200px;}
+
+.caption {
+display: block;
+}
+.menu{
+position: absolute;
+display: flex;
+justify-content: flex-end;
+margin-top: 0px;
+padding-left: 1200px;
+}
+
+.grid-unoo1{    
+grid-area: header;
+display: inline-flex;
+justify-content: flex-end;}
+
+
+
+/* Mobile styles */
+/* regla @media */ /*media type */ /*media features*/
+
+
+@media only screen and (max-width: 480px ) { 
+    body{ background-color: #eeafe9;
+    }}
+
+/*Tablet*/
+
+@media only screen and (min-width: 481px) and (max-width: 968px) { 
+    body {background-color: #ff99d1
+    }}
+
+/* desktop */ 
+
+@media only screen and (min-width: 969px) { 
+
+    body {  background-color: #f7c7eb  ;}}
+
+
+/*Inicio css usuario*/
+
+.logo-A {display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin-left: 20px;}
+
+.Menu-nav {
+display: inline-block;
+padding-left: 1100PX;
+padding-top: 75px;
+position: absolute;}
+    
+.menu-tt {
+display: inline;
+width: 25%;
+position:relative;
+font-size: 17px;
+background: #9e9e9e00;
+text-shadow: 1px 1px #00bcd4;
+font-size: 20px;}
+
+
+.perfumes{
+display: flex;
+height: 450px;
+width: 800px;
+justify-content: flex-start;
+padding-top: 85px;
+position: absolute;}
+
+
+.Usuario1{
+display: flex;
+flex-direction: column;
+align-content: flex-start;
+padding-top: 368px;
+padding-left: 900px;}
+
+div.social1{
+padding-left: 1385px;
+padding-top: 200px;
+position: absolute;
+display: flex;
+flex-direction: column;}
+
+img.w1p{   
+width: 100px;
+padding-right: 10px;}
+
+img.i1g{
+width: 100px;  
+padding-right: 10px;}
+  
+p.p1{
+padding-right: 26px;}
+
+/*fin css usuario*/
+
+/*Nosotros css*/
+
+.logo-A {
+display: flex;
+justify-content: flex-start;
+position: absolute;
+margin-left: 20px;}
+    
+
+.menu-qq {
+display: inline-block;
+padding-left: 1100PX;
+padding-top: 75px;
+position: absolute;}
+    
+.menu-p {
+display: inline;
+width: 25%;
+position:relative;
+font-size: 17px;
+background: #9e9e9e00;
+text-shadow: 1px 1px #00bcd4;
+font-size: 20px;}
+
+.menu-2{
+position: absolute;
+display: flex;
+justify-content: center;
+padding-top: 230px;}
+
+.menu-3{   
+line-height: 0.9cm;
+letter-spacing: 1px;
+padding-top: 283px;
+padding-left: 640px;
+}
+.menu-4{  
+line-height: 1cm;
+padding-left: 40px;
+padding-top: 240px; }
+
+
+.menu-5{    
+display: flex;
+padding-top: 50px;
+flex-direction: column;
+align-content: flex-end;
+align-items: flex-end;}
+    
+.texto-s{  
+display: flex;
+justify-content: space-around;
+padding-left: 26px;}
+    
+img.wp2{
+width: 100px;
+padding-right: 10px;}
+
+img.ig1{ 
+width: 100px;  
+padding-right: 10px;}
+
+p.p-1{ padding-left: 20px;}
+
+.boton-1{
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 1em;
+padding-right: 1em;
+}
+
+/*fin de css nosotros*/
+
+/*inicio de css productos*/
+
+.logo-S {display: flex;
+justify-content: flex-start;
+position: absolute;
+margin-left: 20px;}
+    
+
+.seccioNN3{     display: flex;
+    padding-top: 335px;
+    justify-content: space-around;}
+
+.seccionN4{display: flex;
+    padding-top: 100px;
+    justify-content: space-around}
+
+.clasS{     padding-top: 10px;
+    display: flex;
+    justify-content: space-around; }
+.P{
+    height: 220px;
+    width: 200px;
+}
+
+.socialS1 {   display: flex;
+    padding-top: 18px;
+    justify-content: space-around;
+    padding-left: 60px;}
+    
+img.wwWp{
+        width: 100px;
+        padding-right: 10px;}
+        
+img.iIig{ 
+        width: 100px;  
+        padding-right: 10px;}
+        
+/*fin de css productos*/
+
+
