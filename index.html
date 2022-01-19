@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Il Profumo</title>
-
-<link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -52,9 +53,11 @@
 
             <ul>
         
-            <img class="l" src="imagen.jpg" alt="1">
-            <img class="l" src="imagenes/dos-frascos-perfume-mate-hombres-sobre-fondo-blanco_378481-1064.jpg" alt="2">
-            <img class="l" src="imagen.jpg" alt="3">
+            <img data-aos="flip-left" class="l" src="imagen.jpg" alt="1">
+            <img data-aos="flip-up" class="l" src="imagenes/dos-frascos-perfume-mate-hombres-sobre-fondo-blanco_378481-1064.jpg" alt="2">
+            <img data-aos="flip-right" class="l" src="imagen.jpg" alt="3">
+            
+             
             
         
             </ul>
@@ -68,23 +71,23 @@
 
 
             <div class="fotosytextos">
-               <img class="mm" src="imagenes/Icon.jpg" alt="">
+               <img data-aos="zoom-out-up" class="mm" src="imagenes/Icon.jpg" alt="">
                <span class="caption">Perfumes de hombre y mujer</span>
             </div>
         
             <div class="fotosytextos">
-                <img class="mm" src="imagenes/auril.jpg" alt="">
+                <img data-aos="zoom-out-up" class="mm" src="imagenes/auril.jpg" alt="">
                 <span class="caption">Tratamientos Capilares</span>
              </div>
         
              
              <div class="fotosytextos">
-                <img class="mm" src="imagenes/esmaltes-idi.jpg" alt="">
+                <img data-aos="zoom-out-up" class="mm" src="imagenes/esmaltes-idi.jpg" alt="">
                 <span class="caption">Esmaltes</span>
              </div>
        
              <div class="fotosytextos">
-            <img class="mm" src="imagenes/sh y ac.jpg" alt="">
+            <img data-aos="zoom-out-up" class="mm" src="imagenes/sh y ac.jpg" alt="">
             <span class="caption">Shampoo y Acondicionador</span>
            </div>
         
@@ -105,17 +108,23 @@
     
     
                 <ul class="social111">
-            <a href="https://www.instagram.com/il.profumo.perfumeria/">
-                <img class="ig12" src="iconodeIG.jpg" alt="" ><p class="p1">instagram</p>
+            <a data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500" href="https://www.instagram.com/il.profumo.perfumeria/">
+                <img  class="ig12" src="iconodeIG.jpg" alt="" >
             </a>
                </ul>
     
     
                <ul class="social111">
          
-                <a href="https://api.whatsapp.com/send?phone=541159102502">
+                <a data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500" href="https://api.whatsapp.com/send?phone=541159102502">
            
-                <img class="wp12" src="iconodeWP.jpg" alt=""> <p class="p112">whatsapp</p> </a>
+                <img class="wp12" src="iconodeWP.jpg" alt="">  </a>
             </ul>
            
            </div>
@@ -125,5 +134,10 @@
 
 
     </main>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+ AOS.init();
+ </script>
 </body>
 </html>
